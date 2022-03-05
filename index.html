@@ -4,17 +4,27 @@
         <meta charset="utf-8">
         <title>ahhhhhhhh</title>
         <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="gamer.css">
     </head>
     <body>
         <header>
-            <img src="medias/images/myLogo.png" alt="le_logo" class="logo">
-            <form>
-                <input type="text" placeholder="Chercher un produit" class="recherche">
-            </form>
-            <section class="panier">
-                <p class="nb_achat">4</p>
-                <img src="medias/images/cart.png" alt="le_panier" class="img_panier">
+            <section class="header_PC">
+                <img src="medias/images/menu.png" alt="menu_burger" class="menu">
+                <img src="medias/images/myLogo.png" alt="le_logo" class="logo">
+                <form class="recherche_PC">
+                    <input type="text" placeholder="Chercher un produit" class="bar_recherche">
+                </form>
+                <section class="panier">
+                    <span class="nb_achat">4</span>
+                <a href="#"><img src="medias/images/cart.png" alt="le_panier" class="img_panier"></a> 
+                </section>
             </section>
+            <section class="header_tel">
+                <form class="recherche_tel">
+                    <input type="text" placeholder="Chercher un produit" class="bar_recherche">
+                </form>
+            </section>
+            
             
         </header>
         <nav>
@@ -29,34 +39,53 @@
             <article class="presentation">
                 <h1 class="titre">Réseau</h1>
             </article>
-            <article class="principal">
-                <section class="filtre">
+            <section class="principal">
+                <aside class="filtre">
                     <form>
                         <h2>recherche</h2>
+                        <section>
                         <label for="longueur">Longueur</label>
-                        <label for="longueurmin">min</label>
-                        <input type="text" placeholder="cm">
-                        <label for="longueurmax">max</label>
-                        <input type="text" placeholder="cm">
-                        <label for="Prix">Prix</label>
-                        <label for="Prixmin">min</label>
-                        <input type="text" placeholder="cm">
-                        <label for="Prixmax">max</label>
-                        <input type="text" placeholder="cm">
-            
-                        <label for="categorie">Catégorie</label>
-                        <label for="CAT4"><input type="checkbox">CAT4</label>
-                        <label for="CAT5"><input type="checkbox">CAT5</label>
-                        <label for="CAT6"><input type="checkbox">CAT6</label>
-                        <label for="CAT8"><input type="checkbox">CAT8</label>
+                        <ul>
+                            <li><label for="longueurmin">min</label>                           
+                                <input type="text" placeholder="cm">
+                            </li>
+                            <li>
+                                    <label for="longueurmax">max</label>
+                                    <input type="text" placeholder="cm">
+                            </li>
+                        </ul>
+                        
+                        
+                        </section>
+                        <section>
+                            <label for="Prix">Prix</label>
+                            <ul>
+                                <li>
+                                    <label for="Prixmin">min</label>
+                                    <input type="text" placeholder="cm">
+                                </li>
+                                <li>
+                                    <label for="Prixmax">max</label>
+                                    <input type="text" placeholder="cm">
+                                </li>
+                            </ul>
+                            
+                            
+                        </section>
+                        <section>
+                            <label for="categorie">Catégorie</label>
+                            <label for="CAT4"><input type="checkbox">CAT4</label>
+                            <label for="CAT5"><input type="checkbox">CAT5</label>
+                            <label for="CAT6"><input type="checkbox">CAT6</label>
+                            <label for="CAT8"><input type="checkbox">CAT8</label>
+                        </section>
                     </form> 
-                </section>
+                </aside>
                 <section class="tableau">
                     <article class="row_article">
                         <section>
                             <article>
                                 <img src="medias/images/ethernet.jpg" alt="cable">
-                                
                             </article>
                             <article>
                                 <section>
@@ -109,8 +138,7 @@
                                 <button>Ajout au panier</button>
                             </article>
                         </section> 
-                    </article>
-                    <article class="row_article">
+
                         <section>
                             <article>
                                 <img src="medias/images/ethernet.jpg" alt="cable">
@@ -167,170 +195,166 @@
                                 <button>Ajout au panier</button>
                             </article>
                         </section> 
+                            <section>
+                                <article>
+                                    <img src="medias/images/ethernet.jpg" alt="cable">
+                                    
+                                </article>
+                                <article>
+                                    <section>
+                                        <p class="nom">Cable ethernet RJ54</p>
+                                        <p class="cara">1.5 mètre CAT 6</p>
+                                        <p class="prix">12€00</p>
+                                    </section>
+                                    <button>Ajout au panier</button>
+                                </article>
+                            </section>
+                            <section>
+                                <article>
+                                    <img src="medias/images/ethernet.jpg" alt="cable">
+                                    
+                                </article>
+                                <article>
+                                    <section>
+                                        <p class="nom">Cable ethernet RJ54</p>
+                                        <p class="cara">1.5 mètre CAT 6</p>
+                                        <p class="prix">12€00</p>
+                                    </section>
+                                    <button>Ajout au panier</button>
+                                </article>
+                            </section>
+                            <section>
+                                <article>
+                                    <img src="medias/images/ethernet.jpg" alt="cable">
+                                    
+                                </article>
+                                <article>
+                                    <section>
+                                        <p class="nom">Cable ethernet RJ54</p>
+                                        <p class="cara">1.5 mètre CAT 6</p>
+                                        <p class="prix">12€00</p>
+                                    </section>
+                                    <button>Ajout au panier</button>
+                                </article>
+                            </section>
+                            <section>
+                                <article>
+                                    <img src="medias/images/ethernet.jpg" alt="cable">
+                                    
+                                </article>
+                                <article>
+                                    <section>
+                                        <p class="nom">Cable ethernet RJ54</p>
+                                        <p class="cara">1.5 mètre CAT 6</p>
+                                        <p class="prix">12€00</p>
+                                    </section>
+                                    <button>Ajout au panier</button>
+                                </article>
+                            </section> 
+                            <section>
+                                <article>
+                                    <img src="medias/images/ethernet.jpg" alt="cable">
+                                    
+                                </article>
+                                <article>
+                                    <section>
+                                        <p class="nom">Cable ethernet RJ54</p>
+                                        <p class="cara">1.5 mètre CAT 6</p>
+                                        <p class="prix">12€00</p>
+                                    </section>
+                                    <button>Ajout au panier</button>
+                                </article>
+                            </section>
+                            <section>
+                                <article>
+                                    <img src="medias/images/ethernet.jpg" alt="cable">
+                                    
+                                </article>
+                                <article>
+                                    <section>
+                                        <p class="nom">Cable ethernet RJ54</p>
+                                        <p class="cara">1.5 mètre CAT 6</p>
+                                        <p class="prix">12€00</p>
+                                    </section>
+                                    <button>Ajout au panier</button>
+                                </article>
+                            </section>
+                            <section>
+                                <article>
+                                    <img src="medias/images/ethernet.jpg" alt="cable">
+                                    
+                                </article>
+                                <article>
+                                    <section>
+                                        <p class="nom">Cable ethernet RJ54</p>
+                                        <p class="cara">1.5 mètre CAT 6</p>
+                                        <p class="prix">12€00</p>
+                                    </section>
+                                    <button>Ajout au panier</button>
+                                </article>
+                            </section>
+                            <section>
+                                <article>
+                                    <img src="medias/images/ethernet.jpg" alt="cable">
+                                    
+                                </article>
+                                <article>
+                                    <section>
+                                        <p class="nom">Cable ethernet RJ54</p>
+                                        <p class="cara">1.5 mètre CAT 6</p>
+                                        <p class="prix">12€00</p>
+                                    </section>
+                                    <button>Ajout au panier</button>
+                                </article>
+                                
+                            </section>
                     </article>
-                        <article class="row_article">
-                            <section>
-                                <article>
-                                    <img src="medias/images/ethernet.jpg" alt="cable">
-                                    
-                                </article>
-                                <article>
-                                    <section>
-                                        <p class="nom">Cable ethernet RJ54</p>
-                                        <p class="cara">1.5 mètre CAT 6</p>
-                                        <p class="prix">12€00</p>
-                                    </section>
-                                    <button>Ajout au panier</button>
-                                </article>
-                            </section>
-                            <section>
-                                <article>
-                                    <img src="medias/images/ethernet.jpg" alt="cable">
-                                    
-                                </article>
-                                <article>
-                                    <section>
-                                        <p class="nom">Cable ethernet RJ54</p>
-                                        <p class="cara">1.5 mètre CAT 6</p>
-                                        <p class="prix">12€00</p>
-                                    </section>
-                                    <button>Ajout au panier</button>
-                                </article>
-                            </section>
-                            <section>
-                                <article>
-                                    <img src="medias/images/ethernet.jpg" alt="cable">
-                                    
-                                </article>
-                                <article>
-                                    <section>
-                                        <p class="nom">Cable ethernet RJ54</p>
-                                        <p class="cara">1.5 mètre CAT 6</p>
-                                        <p class="prix">12€00</p>
-                                    </section>
-                                    <button>Ajout au panier</button>
-                                </article>
-                            </section>
-                            <section>
-                                <article>
-                                    <img src="medias/images/ethernet.jpg" alt="cable">
-                                    
-                                </article>
-                                <article>
-                                    <section>
-                                        <p class="nom">Cable ethernet RJ54</p>
-                                        <p class="cara">1.5 mètre CAT 6</p>
-                                        <p class="prix">12€00</p>
-                                    </section>
-                                    <button>Ajout au panier</button>
-                                </article>
-                            </section> 
-                        </article>
-                        <article class="row_article">
-                            <section>
-                                <article>
-                                    <img src="medias/images/ethernet.jpg" alt="cable">
-                                    
-                                </article>
-                                <article>
-                                    <section>
-                                        <p class="nom">Cable ethernet RJ54</p>
-                                        <p class="cara">1.5 mètre CAT 6</p>
-                                        <p class="prix">12€00</p>
-                                    </section>
-                                    <button>Ajout au panier</button>
-                                </article>
-                            </section>
-                            <section>
-                                <article>
-                                    <img src="medias/images/ethernet.jpg" alt="cable">
-                                    
-                                </article>
-                                <article>
-                                    <section>
-                                        <p class="nom">Cable ethernet RJ54</p>
-                                        <p class="cara">1.5 mètre CAT 6</p>
-                                        <p class="prix">12€00</p>
-                                    </section>
-                                    <button>Ajout au panier</button>
-                                </article>
-                            </section>
-                            <section>
-                                <article>
-                                    <img src="medias/images/ethernet.jpg" alt="cable">
-                                    
-                                </article>
-                                <article>
-                                    <section>
-                                        <p class="nom">Cable ethernet RJ54</p>
-                                        <p class="cara">1.5 mètre CAT 6</p>
-                                        <p class="prix">12€00</p>
-                                    </section>
-                                    <button>Ajout au panier</button>
-                                </article>
-                            </section>
-                            <section>
-                                <article>
-                                    <img src="medias/images/ethernet.jpg" alt="cable">
-                                    
-                                </article>
-                                <article>
-                                    <section>
-                                        <p class="nom">Cable ethernet RJ54</p>
-                                        <p class="cara">1.5 mètre CAT 6</p>
-                                        <p class="prix">12€00</p>
-                                    </section>
-                                    <button>Ajout au panier</button>
-                                </article>
-                            </section> 
-                        </article>
-                        <article class="page">
-                            <section>
-                                <a href="?">&lt;</a>
-                                <a href="?" class="num">1</a>
-                                <a href="?" id="active" class="num">2</a>
-                                <a href="?" class="num">3</a>
-                                <a href="?">...</a>
-                                <a href="?" class="num">14</a>
-                                <a href="?" class="num">15</a>
-                                <a href="?" class="num">16</a>
-                                <a href="?">&gt;</a>
-                            </section>
-                        </article>
-                </section>
-            </article>
+                            <article class="page">
+                                <section>
+                                    <a href="?">&lt;</a>
+                                    <a href="?" class="num">1</a>
+                                    <a href="?" id="active" class="num">2</a>
+                                    <a href="?" class="num">3</a>
+                                    <a href="?">...</a>
+                                    <a href="?" class="num">14</a>
+                                    <a href="?" class="num">15</a>
+                                    <a href="?" class="num">16</a>
+                                    <a href="?">&gt;</a>
+                                </section>
+                            </article>
+                        </section> 
+            </section>
         </section>
         <footer>
             <p>Les photos des articles ne sont pas contractuelles</p>
-            <article class="footer">
+            <section class="footer">
                 <section class="footer_nav">
                     <h3>SERVICES D'AIDE</h3>
-                <article>
-                   <p>FAQ</p>
-                    <p>Montage de PC</p>
-                    <p>Garanties</p>
-                    <p>SAV</p>
-                </article>
+                <ul>
+                   <li>FAQ</li>
+                    <li>Montage de PC</li>
+                    <li>Garanties</li>
+                    <li>SAV</li>
+                </ul>
                 </section>
                 <section class="footer_nav">
                     <h3>QUI SOMMES NOUS ?</h3>
-                <article>
-                    <p>L'entreprise</p>
-                    <p>Le groupe</p>
-                    <p>CGV</p>
-                    <p>CGU</p>
-                    <p>Mentions Légales</p>
                 
-                </article>
+                    <ul>
+                    <li>L'entreprise</li>
+                    <li>Le groupe</li>
+                    <li>CGV</li>
+                    <li>CGU</li>
+                    <li>Mentions Légales</li>
+                </ul>
                 </section>
                 <section class="footer_nav">
                     <h3>NOUS REJOINDRE</h3>
-                <article>
-                    <p>Devenir franchisé</p>
-                    <p>Recrutement</p>
-                    <p>Marketplace</p>
-    
-                </article>
+                <ul>
+                    <li>Devenir franchisé</li>
+                    <li>Recrutement</li>
+                    <li>Marketplace</li>
+                </ul>
                 </section>
                 <section class="footer_nav">
                     <h3>NOUS CONTACTER</h3>
@@ -346,7 +370,7 @@
                         </a>
                     </article>
                 </section>
-            </article>
+            </section>
         </footer>
     </body>
         

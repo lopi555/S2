@@ -1,0 +1,67 @@
+@media only screen and (max-width:580px){
+    .presentation{
+        display: none;
+    }
+    .principal{
+        display: flex;
+        flex-direction: column;
+    }
+    .filtre{
+        max-width: 100%;
+        width: 100%;
+    }
+    .footer{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .menu{
+        display: flex;
+    }
+
+    .recherche_PC{
+        width: 100%;
+        display: none;
+    }
+    .bar_recherche{
+        width: 100%;
+    }
+    .recherche_tel{
+        display: flex;
+    }
+    .header_PC{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    header{
+        flex-direction: column;
+    }
+    .logo{
+        width: 25%;
+    }
+    .header_tel{
+        width: 100%;
+        display: block;
+
+    }
+    nav{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width:1178px){
+
+    .produit{
+        margin: 0;
+        
+       
+    }
+    .header_PC{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+}
+
