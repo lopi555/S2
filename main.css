@@ -22,10 +22,12 @@ header{
     margin-left: 10%;
     margin-right: 10%;
     justify-content: space-between;
+    align-items: center;
 }
-.menu{
+.img_menu{
     display: none;
-    width: 10%;
+    width: 60px;
+    height: 60px;
     background-color: #44d5aa;
     cursor: pointer;
 }
@@ -93,8 +95,8 @@ ul{
 
 ul li{
     padding: 0.2%;
-    width:25%;
-    text-align: center;
+    width: 100%;
+    text-align: left;
 }
 ul li a{
     text-decoration: none;
@@ -351,5 +353,32 @@ a{
 form section {
     display: flex;
     align-items: baseline;
+    flex-direction: column;
 }
 
+form{
+    padding: 5px;
+}
+
+.no input{
+    width: 75%;
+}
+
+.no{
+    display: flex;
+    flex-direction: row;
+}
+
+.no section{
+    display: flex;
+    flex-direction: column;
+}
+
+.type{
+    display: flex;
+    flex-direction: row;
+}
+
+.img_logo{
+    width: 100%;
+}
